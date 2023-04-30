@@ -7,6 +7,7 @@ if (!document.location.hash) {
 }
 
 const p2pcf = new P2PCF(
+  workerUrl: '<your worker url>',
   'user-' + Math.floor(Math.random() * 100000),
   document.location.hash.substring(1)
 )
